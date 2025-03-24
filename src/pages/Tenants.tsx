@@ -112,18 +112,18 @@ const Tenants = () => {
                   <div className="h-14 w-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 text-primary">
                     {stage.icon}
                   </div>
-                  <h3 className="text-xl font-medium mb-3">{stage.stage}</h3>
+                  <h3 className="text-xl font-medium text-foreground mb-3">{stage.stage}</h3>
                   <p className="text-muted-foreground">{stage.description}</p>
                 </div>
               </div>
               
               <div className="md:w-2/3 bg-white p-8 rounded-xl shadow-sm">
-                <h4 className="font-medium mb-4">What to expect:</h4>
+                <h4 className="font-medium text-foreground mb-4">What to expect:</h4>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {stage.points.map((point, pointIndex) => (
                     <li key={pointIndex} className="flex items-start">
                       <CheckCircle size={18} className="mr-2 min-w-[18px] text-primary" />
-                      <span>{point}</span>
+                      <span className="text-foreground">{point}</span>
                     </li>
                   ))}
                 </ul>
@@ -257,7 +257,7 @@ const Tenants = () => {
             <div className="bg-white p-8 rounded-lg border border-border shadow-sm">
               <div className="flex items-center mb-4">
                 <Clock size={20} className="mr-3 text-primary" />
-                <h3 className="font-medium">When to Contact Emergency Support</h3>
+                <h3 className="font-medium text-foreground">When to Contact Emergency Support</h3>
               </div>
               <ul className="space-y-2">
                 {[
@@ -270,7 +270,7 @@ const Tenants = () => {
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
                     <CheckCircle size={16} className="mr-2 min-w-[16px] text-primary/70" />
-                    <span className="text-muted-foreground">{item}</span>
+                    <span className="text-foreground">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -329,7 +329,7 @@ const Tenants = () => {
               className="bg-white p-6 rounded-lg shadow-sm animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <h3 className="font-medium mb-4">{category.title}</h3>
+              <h3 className="font-medium text-foreground mb-4">{category.title}</h3>
               <ul className="space-y-2">
                 {category.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
