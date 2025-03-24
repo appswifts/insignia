@@ -14,7 +14,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/718c3d4f-f297-4b6b-a382-ad66dc8df314.png" 
                 alt="Insignia Housing Logo" 
-                className="h-16 w-auto bg-white rounded-full p-1"
+                className="h-20 w-auto bg-white rounded-full p-1"
               />
             </div>
             <p className="body-sm opacity-80 max-w-xs">
