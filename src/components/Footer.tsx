@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
+import { Phone, Mail, MapPin, ArrowRight, Building, FileText, Info } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -86,6 +86,53 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* Company Information */}
+      <div className="border-t border-white/10 mt-10">
+        <div className="container-custom py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <Building size={18} className="mr-3 mt-0.5 text-primary" />
+                <div>
+                  <p className="font-medium">Registered Office Address</p>
+                  <p className="text-sm opacity-80">3 Holt Road, Wembley, England, HA0 3PT</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <Info size={18} className="mr-3 mt-0.5 text-primary" />
+                <div>
+                  <p className="font-medium">Company Status</p>
+                  <p className="text-sm opacity-80">Active</p>
+                  <p className="text-sm opacity-80">Private company limited by guarantee without share capital</p>
+                  <p className="text-sm opacity-80">Community Interest Company (CIC)</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="space-y-4">
+              <div className="flex items-start">
+                <FileText size={18} className="mr-3 mt-0.5 text-primary" />
+                <div>
+                  <p className="font-medium">Company Information</p>
+                  <p className="text-sm opacity-80">Incorporated on 21 March 2025</p>
+                  <p className="text-sm opacity-80">First accounts made up to 31 March 2026</p>
+                  <p className="text-sm opacity-80">First statement date 20 March 2026</p>
+                </div>
+              </div>
+              <div className="flex items-start">
+                <Building size={18} className="mr-3 mt-0.5 text-primary" />
+                <div>
+                  <p className="font-medium">Nature of Business (SIC)</p>
+                  <p className="text-sm opacity-80">87200 - Residential care activities for learning difficulties, mental health and substance abuse</p>
+                  <p className="text-sm opacity-80">87900 - Other residential care activities not elsewhere classified</p>
+                  <p className="text-sm opacity-80">98000 - Residents property management</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
