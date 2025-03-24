@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Shield, Clock, Book, Phone, Users, CheckCircle, Key, FileText, Briefcase, Home } from 'lucide-react';
+import { Shield, Clock, Book, Phone, Users, CheckCircle, Key, FileText, Briefcase, Home, Heart } from 'lucide-react';
 import Hero from '@/components/Hero';
 import Section from '@/components/Section';
 
