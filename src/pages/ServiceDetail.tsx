@@ -28,7 +28,7 @@ const ServiceDetail = () => {
         "Our properties are regularly inspected and maintained to ensure they meet all safety standards and provide a comfortable living environment. We offer various types of accommodation, from shared housing to self-contained units, depending on individual needs and circumstances.",
         "We understand that stable housing is the foundation for rebuilding lives, and we're committed to providing not just a place to stay, but a home where individuals can feel safe, secure, and supported as they work toward independence."
       ],
-      image: "/service-1.jpg"
+      image: "/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png"
     },
     support: {
       title: "Support Services",
@@ -40,7 +40,7 @@ const ServiceDetail = () => {
         "Mental health support, addressing anti-social behaviour, emotional requirements, and learning difficulties. Needs will always be assessed on an individual, personalised basis, ensuring that the measures put in place are the right ones.",
         "Staff will meet with each individual on a one-to-one basis to make sure that their needs are being met. Every one of our customers will be treated with the utmost dignity and respect with an emphasis on choice, control and independence."
       ],
-      image: "/service-2.jpg"
+      image: "/lovable-uploads/302eae1b-4cf9-4db2-998b-fc07c401d054.png"
     },
     solutions: {
       title: "Solutions",
@@ -51,7 +51,7 @@ const ServiceDetail = () => {
         "Through partnerships with local authorities, health services, employment programs, and other community resources, we create comprehensive support networks that enable individuals to overcome barriers and build fulfilling lives.",
         "Our success is measured not just by the number of people we house, but by the positive transformations we see in their lives as they gain confidence, skills, and independence."
       ],
-      image: "/service-3.jpg"
+      image: "/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png"
     },
     referrals: {
       title: "Referrals",
@@ -62,7 +62,7 @@ const ServiceDetail = () => {
         "We work closely with referring organizations to ensure a smooth transition for the individual, sharing information (with appropriate consent) to provide continuity of care and support.",
         "If you're a professional looking to refer someone to our services, please contact our referrals team directly. We're happy to discuss potential referrals before formal submission to determine suitability."
       ],
-      image: "/service-4.jpg"
+      image: "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png"
     },
     landlords: {
       title: "Landlord Services",
@@ -73,7 +73,7 @@ const ServiceDetail = () => {
         "We offer competitive rental rates and flexible contract terms, with options for contracts from 1-5 years. Our experienced property management team ensures your investment is well-maintained and protected.",
         "We're always looking to expand our portfolio of properties. If you're a landlord interested in our guaranteed rent scheme, please contact us to discuss how we can work together."
       ],
-      image: "/service-5.jpg"
+      image: "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png"
     }
   };
 
@@ -155,6 +155,29 @@ const ServiceDetail = () => {
               </ul>
             </div>
           </div>
+        </div>
+      </Section>
+
+      {/* Additional Images */}
+      <Section background="light">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {[
+            "/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png",
+            "/lovable-uploads/06761893-0be3-4051-9b9c-cce0ca15f44e.png",
+            "/lovable-uploads/cad42fed-ace5-4bf1-9510-a1c497a054c0.png"
+          ].map((img, index) => (
+            <div 
+              key={index}
+              className="h-64 overflow-hidden rounded-xl shadow-md animate-fade-in"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <img 
+                src={img} 
+                alt={`${currentService.title} image ${index + 1}`} 
+                className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
+              />
+            </div>
+          ))}
         </div>
       </Section>
 

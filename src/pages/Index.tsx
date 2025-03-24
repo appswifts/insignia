@@ -8,11 +8,24 @@ import Section from '@/components/Section';
 import ServiceCard from '@/components/ServiceCard';
 import AnimatedCounter from '@/components/AnimatedCounter';
 import TestimonialCard from '@/components/TestimonialCard';
+import ImageGallery from '@/components/ImageGallery';
 
 const Index = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const supportImages = [
+    "/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png",
+    "/lovable-uploads/302eae1b-4cf9-4db2-998b-fc07c401d054.png",
+    "/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png",
+    "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png",
+    "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png",
+    "/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png",
+    "/lovable-uploads/06761893-0be3-4051-9b9c-cce0ca15f44e.png",
+    "/lovable-uploads/cad42fed-ace5-4bf1-9510-a1c497a054c0.png",
+    "/lovable-uploads/f253cc90-f308-49be-b5fc-0c6c72b203d3.png"
+  ];
 
   return (
     <main>
@@ -41,7 +54,7 @@ const Index = () => {
           </div>
           <div className="lg:w-1/2 h-[400px] overflow-hidden rounded-2xl shadow-xl animate-fade-in">
             <img 
-              src="/about-img.jpg" 
+              src={supportImages[0]} 
               alt="Insignia Housing Support" 
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
             />
@@ -79,6 +92,15 @@ const Index = () => {
             link="/services/solutions"
           />
         </div>
+      </Section>
+
+      {/* Support Images Gallery */}
+      <Section>
+        <ImageGallery 
+          images={supportImages} 
+          title="Our Support in Action"
+          subtitle="See how we're making a difference in the lives of vulnerable adults through compassionate care and support."
+        />
       </Section>
 
       {/* Call to Action Section */}

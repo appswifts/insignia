@@ -6,11 +6,27 @@ import Hero from '@/components/Hero';
 import Section from '@/components/Section';
 import AnimatedCounter from '@/components/AnimatedCounter';
 import { ArrowRight, Users, Building, Heart, Award, Landmark, HandHelping } from 'lucide-react';
+import ImageGallery from '@/components/ImageGallery';
 
 const About = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const supportImages = [
+    "/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png",
+    "/lovable-uploads/302eae1b-4cf9-4db2-998b-fc07c401d054.png",
+    "/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png",
+    "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png"
+  ];
+
+  const communityImages = [
+    "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png",
+    "/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png",
+    "/lovable-uploads/06761893-0be3-4051-9b9c-cce0ca15f44e.png",
+    "/lovable-uploads/cad42fed-ace5-4bf1-9510-a1c497a054c0.png",
+    "/lovable-uploads/f253cc90-f308-49be-b5fc-0c6c72b203d3.png"
+  ];
 
   return (
     <main className="pt-16">
@@ -40,7 +56,7 @@ const About = () => {
           </div>
           <div className="lg:w-1/2 h-[450px] overflow-hidden rounded-2xl shadow-xl animate-fade-in">
             <img 
-              src="/about-story.jpg" 
+              src={supportImages[0]} 
               alt="Our Story" 
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
             />
@@ -73,8 +89,17 @@ const About = () => {
         </div>
       </Section>
 
-      {/* Values Section */}
+      {/* Impact Gallery */}
       <Section>
+        <ImageGallery 
+          images={communityImages} 
+          title="Our Impact in the Community"
+          subtitle="See the difference we're making in the lives of vulnerable adults through our housing and support services."
+        />
+      </Section>
+
+      {/* Values Section */}
+      <Section background="light">
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">OUR VALUES</span>
           <h2 className="heading-lg mb-6">The Principles That Guide Us</h2>
@@ -161,10 +186,10 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {[
-            { name: "Jane Smith", role: "Founder & CEO", image: "/team-1.jpg" },
-            { name: "Michael Johnson", role: "Operations Director", image: "/team-2.jpg" },
-            { name: "Sarah Williams", role: "Support Services Manager", image: "/team-3.jpg" },
-            { name: "David Brown", role: "Property Manager", image: "/team-4.jpg" }
+            { name: "Jane Smith", role: "Founder & CEO", image: supportImages[1] },
+            { name: "Michael Johnson", role: "Operations Director", image: supportImages[2] },
+            { name: "Sarah Williams", role: "Support Services Manager", image: supportImages[3] },
+            { name: "David Brown", role: "Property Manager", image: communityImages[0] }
           ].map((member, index) => (
             <div 
               key={index}
