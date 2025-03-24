@@ -17,7 +17,8 @@ const Tenants = () => {
       <Hero 
         title="For Our Tenants"
         subtitle="Resources, information, and support for Insignia Housing residents."
-        image="/tenants-hero.jpg"
+        image="/lovable-uploads/06761893-0be3-4051-9b9c-cce0ca15f44e.png"
+        address={true}
       />
 
       {/* Introduction Section */}

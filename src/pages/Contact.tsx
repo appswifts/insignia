@@ -17,7 +17,8 @@ const Contact = () => {
       <Hero 
         title="Contact Us"
         subtitle="We're here to help. Reach out to us with any questions or inquiries."
-        image="/contact-hero.jpg"
+        image="/lovable-uploads/cad42fed-ace5-4bf1-9510-a1c497a054c0.png"
+        address={true}
       />
 
       {/* Contact Cards */}
@@ -37,7 +38,7 @@ const Contact = () => {
           <ContactInfoCard 
             icon={<MapPin size={24} />}
             title="Visit Us"
-            details={["123 Main Street", "Birmingham, B1 2AB", "United Kingdom"]}
+            details={["3 Holt Road", "Wembley, England, HA0 3PT", "United Kingdom"]}
             delay={400}
           />
         </div>

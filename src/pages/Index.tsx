@@ -33,7 +33,8 @@ const Index = () => {
       <Hero 
         title="INSPIRING ADULTS TO CREATE A BETTER FUTURE"
         subtitle="We provide quality homes with additional support to vulnerable and homeless adults in Birmingham."
-        image="/hero-bg.jpg"
+        image="/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png"
+        address={true}
       />
 
       {/* Introduction Section */}
@@ -54,7 +55,7 @@ const Index = () => {
           </div>
           <div className="lg:w-1/2 h-[400px] overflow-hidden rounded-2xl shadow-xl animate-fade-in">
             <img 
-              src={supportImages[0]} 
+              src="/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png" 
               alt="Insignia Housing Support" 
               className="h-full w-full object-cover transition-transform duration-700 hover:scale-105"
             />

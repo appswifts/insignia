@@ -71,7 +71,8 @@ const Services = () => {
       <Hero 
         title="Our Services"
         subtitle="Discover how Insignia Housing can support you with our comprehensive range of services."
-        image="/services-hero.jpg"
+        image="/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png"
+        address={true}
       />
 
       {/* Introduction Section */}

@@ -87,6 +87,7 @@ const ServiceDetail = () => {
         title={currentService.title}
         subtitle={currentService.subtitle}
         image={currentService.image}
+        address={true}
       />
 
       {/* Back to Services */}

@@ -34,8 +34,9 @@ const About = () => {
       <Hero 
         title="About Insignia Housing CIC"
         subtitle="Learn more about who we are and our mission to inspire and support vulnerable individuals."
-        image="/about-hero.jpg"
+        image="/lovable-uploads/f253cc90-f308-49be-b5fc-0c6c72b203d3.png"
         centered={false}
+        address={true}
       />
 
       {/* Our Story Section */}
