@@ -32,7 +32,7 @@ const Index = () => {
       {/* Hero Section */}
       <Hero 
         title="INSPIRING ADULTS TO CREATE A BETTER FUTURE"
-        subtitle="We provide quality homes with additional support to vulnerable and homeless adults in Birmingham."
+        subtitle="We provide quality homes with additional support to vulnerable and homeless adults in Wembley."
         image="/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png"
         address={true}
       />
@@ -119,7 +119,7 @@ const Index = () => {
           }}
         ></div>
         <div className="container-custom relative z-10 text-center">
-          <h2 className="heading-lg mb-6 animate-fade-in">Guaranteed Rent in Birmingham</h2>
+          <h2 className="heading-lg mb-6 animate-fade-in">Guaranteed Rent in Wembley</h2>
           <p className="body-md mb-10 max-w-2xl mx-auto opacity-80 animate-fade-in">
             We offer great benefits to landlords through our guaranteed rent scheme, ensuring regular income and property management.
           </p>

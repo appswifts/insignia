@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -295,7 +294,7 @@ const Tenants = () => {
             {
               title: "Mental Health",
               links: [
-                { name: "Mind Birmingham", url: "#" },
+                { name: "Mind Wembley", url: "#" },
                 { name: "NHS Mental Health Services", url: "#" },
                 { name: "Samaritans (24/7)", url: "#" }
               ]
@@ -304,7 +303,7 @@ const Tenants = () => {
               title: "Employment & Skills",
               links: [
                 { name: "National Careers Service", url: "#" },
-                { name: "Birmingham Jobs", url: "#" },
+                { name: "Wembley Jobs", url: "#" },
                 { name: "Learn Direct", url: "#" }
               ]
             },
@@ -313,13 +312,13 @@ const Tenants = () => {
               links: [
                 { name: "Citizens Advice", url: "#" },
                 { name: "Money Helper", url: "#" },
-                { name: "Birmingham Welfare Support", url: "#" }
+                { name: "Wembley Welfare Support", url: "#" }
               ]
             },
             {
               title: "Community Services",
               links: [
-                { name: "Birmingham Libraries", url: "#" },
+                { name: "Wembley Libraries", url: "#" },
                 { name: "Community Centers", url: "#" },
                 { name: "Local Support Groups", url: "#" }
               ]

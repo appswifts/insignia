@@ -46,7 +46,7 @@ const About = () => {
             <span className="tag mb-4">OUR STORY</span>
             <h2 className="heading-lg mb-6">A Commitment to Making a Difference</h2>
             <p className="body-md text-muted-foreground mb-6">
-              Insignia Housing CIC was founded with a clear mission: to address the growing crisis of homelessness in Birmingham by providing not just shelter, but comprehensive support that empowers individuals to rebuild their lives.
+              Insignia Housing CIC was founded with a clear mission: to address the growing crisis of homelessness in Wembley by providing not just shelter, but comprehensive support that empowers individuals to rebuild their lives.
             </p>
             <p className="body-md text-muted-foreground mb-6">
               What began as a small initiative has grown into a respected organization that has helped hundreds of vulnerable adults find stability, dignity, and hope. Our journey is marked by countless success stories of individuals who have transformed their lives with our support.
@@ -84,7 +84,7 @@ const About = () => {
             </div>
             <h3 className="heading-md mb-4">Our Vision</h3>
             <p className="body-md text-muted-foreground">
-              We envision a Birmingham where homelessness is rare, brief, and non-recurring. A community where every individual has access to safe housing, supportive services, and the opportunity to thrive. Through our work, we aim to create lasting change that transforms lives and strengthens our entire community.
+              We envision a Wembley where homelessness is rare, brief, and non-recurring. A community where every individual has access to safe housing, supportive services, and the opportunity to thrive. Through our work, we aim to create lasting change that transforms lives and strengthens our entire community.
             </p>
           </div>
         </div>

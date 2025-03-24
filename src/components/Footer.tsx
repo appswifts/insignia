@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="text-xs bg-white text-black px-1.5 py-0.5">HOUSING CIC</span>
             </div>
             <p className="body-sm opacity-80 max-w-xs">
-              We provide quality homes with additional support to vulnerable and homeless adults in Birmingham.
+              We provide quality homes with additional support to vulnerable and homeless adults in Wembley.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -81,8 +81,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-3 mt-0.5" />
                 <div>
-                  <p className="font-medium">Birmingham Office</p>
-                  <p className="text-xs opacity-80">123 Main Street, Birmingham, B1 2AB</p>
+                  <p className="font-medium">Office Address</p>
+                  <p className="text-xs opacity-80">3 Holt Road, Wembley, England, HA0 3PT</p>
                 </div>
               </li>
             </ul>

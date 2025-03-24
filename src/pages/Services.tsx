@@ -58,7 +58,7 @@ const Services = () => {
     {
       icon: <Building size={24} />,
       title: "Landlords",
-      description: "We offer guaranteed rent schemes and property management services for landlords in Birmingham.",
+      description: "We offer guaranteed rent schemes and property management services for landlords in Wembley.",
       link: "/services/landlords",
       details: "Our guaranteed rent scheme offers landlords peace of mind with regular, reliable income regardless of occupancy. We handle all aspects of property management, from tenant placement to maintenance, allowing you to enjoy a hands-off investment.",
       image: "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png"
@@ -79,7 +79,7 @@ const Services = () => {
       <Section>
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
           <span className="tag mb-4">WHAT WE DO</span>
-          <h2 className="heading-lg mb-6">Supported Accommodation in Birmingham</h2>
+          <h2 className="heading-lg mb-6">Supported Accommodation in Wembley</h2>
           <p className="body-md text-muted-foreground mb-6">
             Insignia Housing offers more than just a home for people. We specialise in providing a tailored support system for those who are vulnerable and are at a disadvantage. We understand the issues and difficulties that can arise from homelessness, and we believe with the right help individuals can - and do - fulfil their aspirations of independent living.
           </p>

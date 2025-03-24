@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -66,7 +65,7 @@ const Contact = () => {
             
             <div className="aspect-video rounded-xl overflow-hidden shadow-md">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19447.62056269873!2d-1.9098031557714804!3d52.48090213085296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870942d1b41e5c5%3A0xca81fef0aeee7998!2sBirmingham%20City%20Centre%2C%20Birmingham!5e0!3m2!1sen!2suk!4v1697214175387!5m2!1sen!2suk" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.9458311259417!2d-0.2984609233911676!3d51.552306571857705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2s3%20Holt%20Rd%2C%20Wembley%20HA0%203PT!5e0!3m2!1sen!2suk!4v1697214175387!5m2!1sen!2suk" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
@@ -168,7 +167,7 @@ const Contact = () => {
           {[
             {
               question: "Who can access your housing services?",
-              answer: "Our services are available to vulnerable adults in Birmingham who are homeless or at risk of homelessness. We work with local authorities and other referring agencies to identify those in need."
+              answer: "Our services are available to vulnerable adults in Wembley who are homeless or at risk of homelessness. We work with local authorities and other referring agencies to identify those in need."
             },
             {
               question: "How long can someone stay in your accommodation?",
