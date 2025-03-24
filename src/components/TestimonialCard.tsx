@@ -43,7 +43,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           </div>
         )}
         <div>
-          <h4 className="font-medium text-primary">{author}</h4>
+          <h4 className="font-medium text-foreground">{author}</h4>
           {role && <p className="text-sm text-muted-foreground">{role}</p>}
         </div>
       </div>
