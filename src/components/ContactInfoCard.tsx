@@ -22,10 +22,10 @@ const ContactInfoCard: React.FC<ContactInfoCardProps> = ({
       <div className="h-14 w-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 text-primary">
         {icon}
       </div>
-      <h3 className="text-lg font-medium mb-3 text-foreground">{title}</h3>
+      <h3 className="text-lg font-medium mb-3 text-white">{title}</h3>
       <div className="space-y-1">
         {details.map((detail, index) => (
-          <p key={index} className={index === 0 ? "font-medium text-foreground" : "text-muted-foreground text-sm"}>
+          <p key={index} className={index === 0 ? "font-medium text-white" : "text-white/80 text-sm"}>
             {detail}
           </p>
         ))}

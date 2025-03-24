@@ -43,7 +43,7 @@ const Index = () => {
           <div className="lg:w-1/2 animate-slide-in">
             <span className="tag mb-4">ABOUT INSIGNIA HOUSING CIC</span>
             <h2 className="heading-lg mb-6">Whatever your story, we can help to make a difference</h2>
-            <p className="body-md text-muted-foreground mb-6">
+            <p className="body-md text-foreground mb-6">
               In a perfect world, homelessness would be eradicated. Here at Insignia Housing our main aim is to provide high quality accommodation to those who need it most. We work tirelessly to maintain high standards, continually reviewing our processes and procedures to ensure we operate effectively and efficiently.
             </p>
             <Button asChild className="rounded-full">
@@ -68,7 +68,7 @@ const Index = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">OUR SERVICES</span>
           <h2 className="heading-lg mb-6">How We Can Help</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <p className="body-md text-white max-w-2xl mx-auto">
             We offer a comprehensive range of services designed to support vulnerable individuals and help them achieve independent, fulfilling lives.
           </p>
         </div>
@@ -120,7 +120,7 @@ const Index = () => {
         ></div>
         <div className="container-custom relative z-10 text-center">
           <h2 className="heading-lg mb-6 animate-fade-in">Guaranteed Rent in Wembley</h2>
-          <p className="body-md mb-10 max-w-2xl mx-auto opacity-80 animate-fade-in">
+          <p className="body-md mb-10 max-w-2xl mx-auto text-white/90 animate-fade-in">
             We offer great benefits to landlords through our guaranteed rent scheme, ensuring regular income and property management.
           </p>
           <div className="flex flex-wrap justify-center gap-6 animate-fade-in">
@@ -153,7 +153,7 @@ const Index = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">TESTIMONIALS</span>
           <h2 className="heading-lg mb-6">What Our Clients Say</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <p className="body-md text-white max-w-2xl mx-auto">
             Read about the experiences of those we've helped and supported through our services.
           </p>
         </div>

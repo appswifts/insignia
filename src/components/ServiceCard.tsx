@@ -22,7 +22,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         {icon}
       </div>
       <h3 className="heading-sm mb-4 text-foreground">{title}</h3>
-      <p className="body-md text-muted-foreground mb-6">{description}</p>
+      <p className="body-md text-foreground mb-6">{description}</p>
       <Link 
         to={link}
         className="inline-flex items-center font-medium text-primary"
