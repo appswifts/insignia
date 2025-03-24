@@ -33,11 +33,14 @@ const Navbar = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-md' : 'bg-transparent'}`}>
-      <div className="container-custom py-4">
+      <div className="container-custom py-3">
         <nav className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <span className="font-serif text-2xl font-bold tracking-tight">INSIGNIA</span>
-            <span className="text-xs bg-black text-white px-1.5 py-0.5">HOUSING CIC</span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/718c3d4f-f297-4b6b-a382-ad66dc8df314.png" 
+              alt="Insignia Housing Logo" 
+              className="h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -51,7 +54,7 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <Button className="flex items-center gap-2 bg-black text-white rounded-full hover:bg-black/80">
+            <Button className="flex items-center gap-2 bg-primary text-white rounded-full hover:bg-primary/90">
               <Phone size={16} />
               <span>0121 729 5002</span>
             </Button>
@@ -80,7 +83,7 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <Button className="flex items-center gap-2 w-full justify-center bg-black text-white rounded-full hover:bg-black/80">
+              <Button className="flex items-center gap-2 w-full justify-center bg-primary text-white rounded-full hover:bg-primary/90">
                 <Phone size={16} />
                 <span>0121 729 5002</span>
               </Button>

@@ -5,14 +5,17 @@ import { Phone, Mail, MapPin, ArrowRight, Building, FileText, Info } from 'lucid
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-primary text-white">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Column 1: About */}
           <div className="space-y-6">
-            <div className="flex items-center space-x-2">
-              <span className="font-serif text-2xl font-bold tracking-tight">INSIGNIA</span>
-              <span className="text-xs bg-white text-black px-1.5 py-0.5">HOUSING CIC</span>
+            <div>
+              <img 
+                src="/lovable-uploads/718c3d4f-f297-4b6b-a382-ad66dc8df314.png" 
+                alt="Insignia Housing Logo" 
+                className="h-16 w-auto bg-white rounded-full p-1"
+              />
             </div>
             <p className="body-sm opacity-80 max-w-xs">
               We provide quality homes with additional support to vulnerable and homeless adults in Wembley.
@@ -96,14 +99,14 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <div className="flex items-start">
-                <Building size={18} className="mr-3 mt-0.5 text-primary" />
+                <Building size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Registered Office Address</p>
                   <p className="text-sm opacity-80">3 Holt Road, Wembley, England, HA0 3PT</p>
                 </div>
               </div>
               <div className="flex items-start">
-                <Info size={18} className="mr-3 mt-0.5 text-primary" />
+                <Info size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Company Status</p>
                   <p className="text-sm opacity-80">Active</p>
@@ -115,7 +118,7 @@ const Footer = () => {
             
             <div className="space-y-4">
               <div className="flex items-start">
-                <FileText size={18} className="mr-3 mt-0.5 text-primary" />
+                <FileText size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Company Information</p>
                   <p className="text-sm opacity-80">Incorporated on 21 March 2025</p>
@@ -124,7 +127,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-start">
-                <Building size={18} className="mr-3 mt-0.5 text-primary" />
+                <Building size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Nature of Business (SIC)</p>
                   <p className="text-sm opacity-80">87200 - Residential care activities for learning difficulties, mental health and substance abuse</p>
