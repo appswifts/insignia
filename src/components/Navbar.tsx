@@ -39,7 +39,7 @@ const Navbar = () => {
             <img 
               src="/lovable-uploads/718c3d4f-f297-4b6b-a382-ad66dc8df314.png" 
               alt="Insignia Housing Logo" 
-              className="h-21 w-auto" // Increased from h-14 to h-21 (1.5x larger)
+              className="h-14 w-auto"
             />
           </Link>
 
