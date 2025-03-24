@@ -22,7 +22,7 @@ const Section: React.FC<SectionProps> = ({
     switch (background) {
       case 'light': return 'bg-secondary text-white';
       case 'dark': return 'bg-black text-white';
-      default: return 'bg-white text-white';
+      default: return 'bg-white text-foreground';
     }
   };
   

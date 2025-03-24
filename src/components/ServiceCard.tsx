@@ -21,7 +21,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       <div className="h-14 w-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 text-primary">
         {icon}
       </div>
-      <h3 className="heading-sm mb-4">{title}</h3>
+      <h3 className="heading-sm mb-4 text-foreground">{title}</h3>
       <p className="body-md text-muted-foreground mb-6">{description}</p>
       <Link 
         to={link}
