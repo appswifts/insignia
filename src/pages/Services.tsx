@@ -187,9 +187,9 @@ const Services = () => {
 
       {/* CTA Section */}
       <Section background="light">
-        <div className="text-center animate-fade-in">
+        <div className="text-center animate-fade-in text-white">
           <h2 className="heading-lg mb-6">Need Our Help?</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto mb-8">
+          <p className="body-md text-white max-w-2xl mx-auto mb-8">
             Contact us today to learn more about our services or to discuss how we can assist you or someone you know.
           </p>
           <Button asChild className="rounded-full">
