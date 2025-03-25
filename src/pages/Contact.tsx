@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -49,7 +50,7 @@ const Contact = () => {
           <div className="animate-slide-in">
             <span className="tag mb-4">GET IN TOUCH</span>
             <h2 className="heading-lg mb-6">Send Us a Message</h2>
-            <p className="body-md text-muted-foreground mb-6">
+            <p className="body-md mb-6">
               Have a question or need assistance? Fill out the form and one of our team members will get back to you as soon as possible.
             </p>
             
@@ -58,7 +59,7 @@ const Contact = () => {
                 <Clock size={20} className="mr-4 text-primary" />
                 <div>
                   <p className="font-medium">Office Hours</p>
-                  <p className="text-sm text-muted-foreground">Monday — Sunday: 9:00am — 5:00pm</p>
+                  <p className="text-sm">Monday — Sunday: 9:00am — 5:00pm</p>
                 </div>
               </div>
             </div>
@@ -158,7 +159,7 @@ const Contact = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">FAQ</span>
           <h2 className="heading-lg mb-6">Frequently Asked Questions</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <p className="body-md text-foreground max-w-2xl mx-auto">
             Find quick answers to common questions about our services.
           </p>
         </div>
@@ -196,7 +197,7 @@ const Contact = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <h3 className="font-medium text-lg mb-3">{faq.question}</h3>
-              <p className="text-muted-foreground">{faq.answer}</p>
+              <p className="text-foreground">{faq.answer}</p>
             </div>
           ))}
         </div>
