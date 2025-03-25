@@ -17,7 +17,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   
-  const isServicesPage = location.pathname === '/services';
+  const isHomePage = location.pathname === '/';
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -54,8 +54,7 @@ const Navbar = () => {
                   <Link 
                     to={link.path} 
                     className={`link-hover text-sm font-medium ${
-                      isServicesPage ? 'text-black' : 
-                      scrolled ? '' : 'text-white'
+                      isHomePage && !scrolled ? 'text-white' : 'text-black'
                     }`}
                   >
                     {link.title}
@@ -70,7 +69,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={toggleMenu} className={`md:hidden ${scrolled ? 'text-gray-800' : 'text-white'}`}>
+          <button onClick={toggleMenu} className={`md:hidden ${scrolled ? 'text-gray-800' : isHomePage ? 'text-white' : 'text-black'}`}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </nav>
