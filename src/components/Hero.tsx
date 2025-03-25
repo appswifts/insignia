@@ -22,7 +22,7 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <div 
-      className={`relative min-h-[70vh] flex items-center ${centered ? 'justify-center text-center' : 'justify-start text-left'} ${className}`}
+      className={`relative min-h-[70vh] flex items-center pt-24 ${centered ? 'justify-center text-center' : 'justify-start text-left'} ${className}`}
       style={{ 
         backgroundImage: `url(${image})`,
         backgroundSize: 'cover',

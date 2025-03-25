@@ -32,7 +32,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-md' : 'bg-transparent'}`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-md text-foreground' : 'bg-transparent text-white'}`}>
       <div className="container-custom py-3">
         <nav className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
@@ -48,27 +48,27 @@ const Navbar = () => {
             <ul className="flex space-x-8">
               {navLinks.map((link) => (
                 <li key={link.path}>
-                  <Link to={link.path} className="link-hover text-sm font-medium">
+                  <Link to={link.path} className={`link-hover text-sm font-medium ${scrolled ? '' : 'text-white'}`}>
                     {link.title}
                   </Link>
                 </li>
               ))}
             </ul>
-            <Button className="flex items-center gap-2 bg-primary text-white rounded-full hover:bg-primary/90">
+            <Button className={`flex items-center gap-2 ${scrolled ? 'bg-primary text-white' : 'bg-white text-primary'} rounded-full hover:bg-primary/90 hover:text-white`}>
               <Phone size={16} />
               <span>0121 729 5002</span>
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <button onClick={toggleMenu} className="md:hidden text-gray-800">
+          <button onClick={toggleMenu} className={`md:hidden ${scrolled ? 'text-gray-800' : 'text-white'}`}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </nav>
       </div>
 
       {/* Mobile Navigation */}
-      <div className={`md:hidden absolute w-full bg-white shadow-lg transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+      <div className={`md:hidden absolute w-full bg-white shadow-lg transition-all duration-300 ease-in-out text-foreground ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
         <div className="container-custom py-6">
           <ul className="space-y-6">
             {navLinks.map((link) => (
