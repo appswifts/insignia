@@ -44,14 +44,14 @@ const About = () => {
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2 animate-slide-in">
             <span className="tag mb-4">OUR STORY</span>
-            <h2 className="heading-lg mb-6">A Commitment to Making a Difference</h2>
-            <p className="body-md text-muted-foreground mb-6">
+            <h2 className="heading-lg mb-6 text-foreground">A Commitment to Making a Difference</h2>
+            <p className="body-md text-foreground mb-6">
               Insignia Housing CIC was founded with a clear mission: to address the growing crisis of homelessness in Wembley by providing not just shelter, but comprehensive support that empowers individuals to rebuild their lives.
             </p>
-            <p className="body-md text-muted-foreground mb-6">
+            <p className="body-md text-foreground mb-6">
               What began as a small initiative has grown into a respected organization that has helped hundreds of vulnerable adults find stability, dignity, and hope. Our journey is marked by countless success stories of individuals who have transformed their lives with our support.
             </p>
-            <p className="body-md text-muted-foreground">
+            <p className="body-md text-foreground">
               Today, we continue to expand our services and reach, driven by our unwavering commitment to making a tangible difference in our community.
             </p>
           </div>
@@ -72,8 +72,8 @@ const About = () => {
             <div className="h-14 w-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 text-primary">
               <Landmark size={28} />
             </div>
-            <h3 className="heading-md mb-4">Our Mission</h3>
-            <p className="body-md text-muted-foreground">
+            <h3 className="heading-md mb-4 text-foreground">Our Mission</h3>
+            <p className="body-md text-foreground">
               To provide high-quality accommodation and tailored support services to vulnerable adults, empowering them to overcome barriers and build independent, fulfilling lives. We are committed to addressing homelessness with dignity, compassion, and practical solutions.
             </p>
           </div>
@@ -82,8 +82,8 @@ const About = () => {
             <div className="h-14 w-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 text-primary">
               <HandHelping size={28} />
             </div>
-            <h3 className="heading-md mb-4">Our Vision</h3>
-            <p className="body-md text-muted-foreground">
+            <h3 className="heading-md mb-4 text-foreground">Our Vision</h3>
+            <p className="body-md text-foreground">
               We envision a Wembley where homelessness is rare, brief, and non-recurring. A community where every individual has access to safe housing, supportive services, and the opportunity to thrive. Through our work, we aim to create lasting change that transforms lives and strengthens our entire community.
             </p>
           </div>
@@ -103,8 +103,8 @@ const About = () => {
       <Section background="light">
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">OUR VALUES</span>
-          <h2 className="heading-lg mb-6">The Principles That Guide Us</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <h2 className="heading-lg mb-6 text-foreground">The Principles That Guide Us</h2>
+          <p className="body-md text-foreground max-w-2xl mx-auto">
             Our core values shape every aspect of our work and define our approach to supporting vulnerable individuals.
           </p>
         </div>
@@ -150,8 +150,8 @@ const About = () => {
               <div className="h-14 w-14 bg-primary/5 rounded-full flex items-center justify-center mb-6 text-primary">
                 {value.icon}
               </div>
-              <h3 className="text-xl font-medium mb-3">{value.title}</h3>
-              <p className="text-muted-foreground">{value.description}</p>
+              <h3 className="text-xl font-medium mb-3 text-foreground">{value.title}</h3>
+              <p className="text-foreground">{value.description}</p>
             </div>
           ))}
         </div>
@@ -179,8 +179,8 @@ const About = () => {
       <Section>
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">OUR TEAM</span>
-          <h2 className="heading-lg mb-6">Meet the People Behind Insignia Housing</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <h2 className="heading-lg mb-6 text-foreground">Meet the People Behind Insignia Housing</h2>
+          <p className="body-md text-foreground max-w-2xl mx-auto">
             Our dedicated team brings together expertise in housing, social work, mental health, and community development.
           </p>
         </div>
@@ -204,8 +204,8 @@ const About = () => {
                   className="h-full w-full object-cover transition-transform duration-500 hover:scale-110"
                 />
               </div>
-              <h3 className="text-xl font-medium">{member.name}</h3>
-              <p className="text-muted-foreground">{member.role}</p>
+              <h3 className="text-xl font-medium text-foreground">{member.name}</h3>
+              <p className="text-foreground">{member.role}</p>
             </div>
           ))}
         </div>
@@ -214,8 +214,8 @@ const About = () => {
       {/* CTA Section */}
       <Section background="light">
         <div className="text-center animate-fade-in">
-          <h2 className="heading-lg mb-6">Ready to Learn More?</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto mb-8">
+          <h2 className="heading-lg mb-6 text-foreground">Ready to Learn More?</h2>
+          <p className="body-md text-foreground max-w-2xl mx-auto mb-8">
             Discover how our services can help you or someone you know, or explore opportunities to support our mission.
           </p>
           <div className="flex flex-wrap justify-center gap-6">

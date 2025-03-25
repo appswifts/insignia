@@ -20,7 +20,7 @@ const Section: React.FC<SectionProps> = ({
 }) => {
   const getBgColor = () => {
     switch (background) {
-      case 'light': return 'bg-secondary text-white';
+      case 'light': return 'bg-secondary text-foreground';
       case 'dark': return 'bg-black text-white';
       default: return 'bg-white text-foreground';
     }
