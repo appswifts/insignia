@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from './ui/button';
 
@@ -15,6 +15,9 @@ const navLinks = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  
+  const isServicesPage = location.pathname === '/services';
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -48,7 +51,13 @@ const Navbar = () => {
             <ul className="flex space-x-8">
               {navLinks.map((link) => (
                 <li key={link.path}>
-                  <Link to={link.path} className={`link-hover text-sm font-medium ${scrolled ? '' : 'text-white'}`}>
+                  <Link 
+                    to={link.path} 
+                    className={`link-hover text-sm font-medium ${
+                      isServicesPage ? 'text-black' : 
+                      scrolled ? '' : 'text-white'
+                    }`}
+                  >
                     {link.title}
                   </Link>
                 </li>
