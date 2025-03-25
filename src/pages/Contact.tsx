@@ -82,7 +82,7 @@ const Contact = () => {
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label htmlFor="firstName" className="text-sm font-medium">First Name</label>
+                  <label htmlFor="firstName" className="text-sm font-medium text-black">First Name</label>
                   <input 
                     id="firstName"
                     type="text" 
@@ -91,7 +91,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="lastName" className="text-sm font-medium">Last Name</label>
+                  <label htmlFor="lastName" className="text-sm font-medium text-black">Last Name</label>
                   <input 
                     id="lastName"
                     type="text" 
@@ -102,7 +102,7 @@ const Contact = () => {
               </div>
               
               <div className="space-y-2">
-                <label htmlFor="email" className="text-sm font-medium">Email Address</label>
+                <label htmlFor="email" className="text-sm font-medium text-black">Email Address</label>
                 <input 
                   id="email"
                   type="email" 
@@ -112,7 +112,7 @@ const Contact = () => {
               </div>
               
               <div className="space-y-2">
-                <label htmlFor="phone" className="text-sm font-medium">Phone Number</label>
+                <label htmlFor="phone" className="text-sm font-medium text-black">Phone Number</label>
                 <input 
                   id="phone"
                   type="tel" 
@@ -122,7 +122,7 @@ const Contact = () => {
               </div>
               
               <div className="space-y-2">
-                <label htmlFor="subject" className="text-sm font-medium">Subject</label>
+                <label htmlFor="subject" className="text-sm font-medium text-black">Subject</label>
                 <select 
                   id="subject"
                   className="w-full px-4 py-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20" 
@@ -137,7 +137,7 @@ const Contact = () => {
               </div>
               
               <div className="space-y-2">
-                <label htmlFor="message" className="text-sm font-medium">Message</label>
+                <label htmlFor="message" className="text-sm font-medium text-black">Message</label>
                 <textarea 
                   id="message"
                   rows={5} 
