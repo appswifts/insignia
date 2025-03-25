@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -284,7 +285,7 @@ const Tenants = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">USEFUL RESOURCES</span>
           <h2 className="heading-lg mb-6">Additional Support</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <p className="body-md text-white max-w-2xl mx-auto">
             Beyond our direct services, here are some external resources that might be helpful.
           </p>
         </div>
