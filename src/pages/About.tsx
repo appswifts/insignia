@@ -174,42 +174,6 @@ const About = () => {
         </div>
       </Section>
 
-      {/* Team Section */}
-      <Section>
-        <div className="text-center mb-16 animate-fade-in">
-          <span className="tag mb-4">OUR TEAM</span>
-          <h2 className="heading-lg mb-6 text-foreground">Meet the People Behind Insignia Housing</h2>
-          <p className="body-md text-foreground max-w-2xl mx-auto">
-            Our dedicated team brings together expertise in housing, social work, mental health, and community development.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {[
-            { name: "Jane Smith", role: "Founder & CEO", image: supportImages[1] },
-            { name: "Michael Johnson", role: "Operations Director", image: supportImages[2] },
-            { name: "Sarah Williams", role: "Support Services Manager", image: supportImages[3] },
-            { name: "David Brown", role: "Property Manager", image: communityImages[0] }
-          ].map((member, index) => (
-            <div 
-              key={index}
-              className="text-center animate-fade-in"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="h-64 rounded-xl overflow-hidden mb-4 shadow-md">
-                <img 
-                  src={member.image} 
-                  alt={member.name} 
-                  className="h-full w-full object-cover transition-transform duration-500 hover:scale-110"
-                />
-              </div>
-              <h3 className="text-xl font-medium text-foreground">{member.name}</h3>
-              <p className="text-foreground">{member.role}</p>
-            </div>
-          ))}
-        </div>
-      </Section>
-
       {/* CTA Section */}
       <Section background="light">
         <div className="text-center animate-fade-in">
