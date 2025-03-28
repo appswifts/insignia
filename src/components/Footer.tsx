@@ -84,7 +84,7 @@ const Footer = () => {
                 <MapPin size={18} className="mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Office Address</p>
-                  <p className="text-xs opacity-80">3 Holt Road, England, HA0 3PT</p>
+                  <p className="text-xs opacity-80">C/0 Unit 51, Dartford Business Park, Victoria Road, Dartford, Kent DA1 5FS</p>
                 </div>
               </li>
             </ul>
@@ -101,7 +101,7 @@ const Footer = () => {
                 <Building size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Registered Office Address</p>
-                  <p className="text-sm opacity-80">3 Holt Road, England, HA0 3PT</p>
+                  <p className="text-sm opacity-80">C/0 Unit 51, Dartford Business Park, Victoria Road, Dartford, Kent DA1 5FS</p>
                 </div>
               </div>
               <div className="flex items-start">

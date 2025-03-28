@@ -37,7 +37,7 @@ const Contact = () => {
           <ContactInfoCard 
             icon={<MapPin size={24} />}
             title="Visit Us"
-            details={["3 Holt Road", "England, HA0 3PT", "United Kingdom"]}
+            details={["C/0 Unit 51, Dartford Business Park", "Victoria Road, Dartford", "Kent DA1 5FS"]}
             delay={400}
           />
         </div>
@@ -65,7 +65,7 @@ const Contact = () => {
             
             <div className="aspect-video rounded-xl overflow-hidden shadow-md">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.9458311259417!2d-0.2984609233911676!3d51.552306571857705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761181d57a876d%3A0xa64f9f185de8e097!2s3%20Holt%20Rd%2C%20HA0%203PT!5e0!3m2!1sen!2suk!4v1697214175387!5m2!1sen!2suk" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.5518163183333!2d0.21173457684661825!3d51.45726481761915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8b16564306e3f%3A0x87efb7bddff001e!2sVictoria%20Rd%2C%20Dartford%20DA1%205FS!5e0!3m2!1sen!2suk!4v1697214175387!5m2!1sen!2suk" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
