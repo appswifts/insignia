@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -40,7 +39,7 @@ const Tenants = () => {
         <div className="text-center mb-16 animate-fade-in">
           <span className="tag mb-4">OUR APPROACH</span>
           <h2 className="heading-lg mb-6">Your Support Journey</h2>
-          <p className="body-md text-muted-foreground max-w-2xl mx-auto">
+          <p className="body-md text-white max-w-2xl mx-auto">
             Our five-stage support program is designed to guide you from initial assessment to independent living.
           </p>
         </div>
@@ -245,7 +244,7 @@ const Tenants = () => {
             <div className="flex items-center bg-primary/5 p-6 rounded-lg mb-6">
               <Phone size={24} className="mr-6 text-primary" />
               <div>
-                <p className="font-serif text-2xl font-bold">0121 729 5002</p>
+                <p className="font-serif text-2xl font-bold">+44 7483 338883</p>
                 <p className="text-muted-foreground">24 hours a day, 7 days a week</p>
               </div>
             </div>
@@ -295,7 +294,7 @@ const Tenants = () => {
             {
               title: "Mental Health",
               links: [
-                { name: "Mind Wembley", url: "#" },
+                { name: "Mind Support", url: "#" },
                 { name: "NHS Mental Health Services", url: "#" },
                 { name: "Samaritans (24/7)", url: "#" }
               ]
@@ -304,7 +303,7 @@ const Tenants = () => {
               title: "Employment & Skills",
               links: [
                 { name: "National Careers Service", url: "#" },
-                { name: "Wembley Jobs", url: "#" },
+                { name: "Local Jobs Network", url: "#" },
                 { name: "Learn Direct", url: "#" }
               ]
             },
@@ -313,13 +312,13 @@ const Tenants = () => {
               links: [
                 { name: "Citizens Advice", url: "#" },
                 { name: "Money Helper", url: "#" },
-                { name: "Wembley Welfare Support", url: "#" }
+                { name: "Welfare Support", url: "#" }
               ]
             },
             {
               title: "Community Services",
               links: [
-                { name: "Wembley Libraries", url: "#" },
+                { name: "Local Libraries", url: "#" },
                 { name: "Community Centers", url: "#" },
                 { name: "Local Support Groups", url: "#" }
               ]

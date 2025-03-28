@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { ArrowRight, Home, Heart, Lightbulb, Building, Mail, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -17,9 +16,9 @@ const Index = () => {
 
   const supportImages = [
     "/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png",
-    "/lovable-uploads/302eae1b-4cf9-4db2-998b-fc07c401d054.png",
+    "https://media.istockphoto.com/id/2030019953/photo/mother-playing-with-autistic-daughter.jpg?s=612x612&w=0&k=20&c=uL1EA3d5natGnhbGgSHR-t59xOo4PrQpAjmsJMx-Tw4=",
     "/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png",
-    "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png",
+    "https://media.istockphoto.com/id/2184072660/photo/joyful-child-embracing-the-holiday-spirit-at-home.jpg?s=612x612&w=0&k=20&c=ecJyUlHYJeIVkr8xJUaZWRtaqdIJAL0Ur-SY7TKSTpg=",
     "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png",
     "/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png",
     "/lovable-uploads/06761893-0be3-4051-9b9c-cce0ca15f44e.png",
@@ -31,10 +30,10 @@ const Index = () => {
     <main>
       {/* Hero Section */}
       <Hero 
-        title="INSPIRING ADULTS TO CREATE A BETTER FUTURE"
-        subtitle="We provide quality homes with additional support to vulnerable and homeless adults in Wembley."
+        title="EMPOWERING FUTURES THROUGH QUALITY HOUSING"
+        subtitle="Providing supportive, high-quality accommodations for vulnerable and homeless adults to build independent lives."
         image="/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png"
-        address={true}
+        address={false}
       />
 
       {/* Introduction Section */}
@@ -119,7 +118,7 @@ const Index = () => {
           }}
         ></div>
         <div className="container-custom relative z-10 text-center">
-          <h2 className="heading-lg mb-6 animate-fade-in">Guaranteed Rent in Wembley</h2>
+          <h2 className="heading-lg mb-6 animate-fade-in">Guaranteed Rent</h2>
           <p className="body-md mb-10 max-w-2xl mx-auto text-white/90 animate-fade-in">
             We offer great benefits to landlords through our guaranteed rent scheme, ensuring regular income and property management.
           </p>
@@ -190,14 +189,14 @@ const Index = () => {
               <div className="flex items-center">
                 <Phone size={20} className="mr-4" />
                 <div>
-                  <p className="font-medium">0121 729 5002</p>
+                  <p className="font-medium">+44 7483 338883</p>
                   <p className="text-sm opacity-70">Lines open 24/7</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Mail size={20} className="mr-4" />
                 <div>
-                  <p className="font-medium">info@insigniahousing.org</p>
+                  <p className="font-medium">info@insigniahousing.co.uk</p>
                   <p className="text-sm opacity-70">Email us anytime</p>
                 </div>
               </div>

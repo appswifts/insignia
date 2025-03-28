@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface ImageGalleryProps {
@@ -6,20 +5,22 @@ interface ImageGalleryProps {
   title?: string;
   subtitle?: string;
   className?: string;
+  onDarkBackground?: boolean;
 }
 
 const ImageGallery: React.FC<ImageGalleryProps> = ({ 
   images, 
   title, 
   subtitle,
-  className = "" 
+  className = "",
+  onDarkBackground = false
 }) => {
   return (
     <div className={`${className}`}>
       {(title || subtitle) && (
         <div className="text-center mb-10 animate-fade-in">
           {title && <h2 className="heading-lg mb-4">{title}</h2>}
-          {subtitle && <p className="body-md text-muted-foreground max-w-2xl mx-auto">{subtitle}</p>}
+          {subtitle && <p className={`body-md ${onDarkBackground ? "text-white" : "text-muted-foreground"} max-w-2xl mx-auto`}>{subtitle}</p>}
         </div>
       )}
       

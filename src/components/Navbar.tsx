@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
@@ -64,7 +63,7 @@ const Navbar = () => {
             </ul>
             <Button className={`flex items-center gap-2 ${scrolled ? 'bg-primary text-white' : 'bg-white text-primary'} rounded-full hover:bg-primary/90 hover:text-white`}>
               <Phone size={16} />
-              <span>0121 729 5002</span>
+              <span>+44 7483 338883</span>
             </Button>
           </div>
 
@@ -93,7 +92,7 @@ const Navbar = () => {
             <li>
               <Button className="flex items-center gap-2 w-full justify-center bg-primary text-white rounded-full hover:bg-primary/90">
                 <Phone size={16} />
-                <span>0121 729 5002</span>
+                <span>+44 7483 338883</span>
               </Button>
             </li>
           </ul>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, ArrowRight, Building, FileText, Info } from 'lucide-react';
@@ -18,7 +17,7 @@ const Footer = () => {
               />
             </div>
             <p className="body-sm opacity-80 max-w-xs">
-              We provide quality homes with additional support to vulnerable and homeless adults in Wembley.
+              We provide quality homes with additional support to vulnerable and homeless adults.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -70,14 +69,14 @@ const Footer = () => {
               <li className="flex items-start">
                 <Phone size={18} className="mr-3 mt-0.5" />
                 <div>
-                  <p className="font-medium">0121 729 5002</p>
+                  <p className="font-medium">+44 7483 338883</p>
                   <p className="text-xs opacity-80">Lines open 24/7</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <Mail size={18} className="mr-3 mt-0.5" />
                 <div>
-                  <p className="font-medium">info@insigniahousing.org</p>
+                  <p className="font-medium">info@insigniahousing.co.uk</p>
                   <p className="text-xs opacity-80">Email us anytime</p>
                 </div>
               </li>
@@ -85,7 +84,7 @@ const Footer = () => {
                 <MapPin size={18} className="mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Office Address</p>
-                  <p className="text-xs opacity-80">3 Holt Road, Wembley, England, HA0 3PT</p>
+                  <p className="text-xs opacity-80">3 Holt Road, England, HA0 3PT</p>
                 </div>
               </li>
             </ul>
@@ -102,7 +101,7 @@ const Footer = () => {
                 <Building size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Registered Office Address</p>
-                  <p className="text-sm opacity-80">3 Holt Road, Wembley, England, HA0 3PT</p>
+                  <p className="text-sm opacity-80">3 Holt Road, England, HA0 3PT</p>
                 </div>
               </div>
               <div className="flex items-start">

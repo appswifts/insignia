@@ -25,7 +25,7 @@ const ServiceDetail = () => {
         "In a perfect world, homelessness would be eradicated. Here at Insignia Housing our main aim is to provide high quality accommodation to those who need it most.",
         "We work tirelessly to maintain high standards, continually reviewing our processes and procedures to ensure we operate effectively and efficiently.",
         "Our properties are regularly inspected and maintained to ensure they meet all safety standards and provide a comfortable living environment. We offer various types of accommodation, from shared housing to self-contained units, depending on individual needs and circumstances.",
-        "We understand that stable housing is the foundation for rebuilding lives, and we're committed to providing not just a place to stay, but a home where individuals can feel safe, secure, and supported as they work toward independence."
+        "We understand that stable housing is the foundation for rebuilding lives, and we're committed to providing not just a place to stay, but a home where individuals can feel safe, secure, and supported as they work towards independence."
       ],
       image: "/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png"
     },
@@ -34,7 +34,7 @@ const ServiceDetail = () => {
       subtitle: "Comprehensive support to overcome barriers and build independence",
       description: [
         "We have a strong desire to prevent and reduce homelessness. Insignia Values lie at the very core of our business.",
-        "Our values are intertwined passionately with our ethos: to unrequitedly respect our fellow human beings, inspiring endless hope for anyone who might need it.",
+        "Our values are intertwined passionately with our ethos: to unreservedly respect our fellow human beings, inspiring endless hope for anyone who might need it.",
         "Every tenant will have their individual needs recognised and assessed by our highly-trained, professional staff. They will be taught to identify any barriers that may prevent the individual from living a stable, productive and healthy life, including (but not limited to):",
         "Mental health support, addressing anti-social behaviour, emotional requirements, and learning difficulties. Needs will always be assessed on an individual, personalised basis, ensuring that the measures put in place are the right ones.",
         "Staff will meet with each individual on a one-to-one basis to make sure that their needs are being met. Every one of our customers will be treated with the utmost dignity and respect with an emphasis on choice, control and independence."
@@ -46,19 +46,19 @@ const ServiceDetail = () => {
       subtitle: "Practical approaches to complex challenges",
       description: [
         "We are committed to delivering on the promises we make. Our vision is to assist people; providing the housing and services they need to live independent, prosperous, fulfilling and rewarding lives.",
-        "Our approach is holistic, recognizing that addressing homelessness requires more than just providing shelter. We work to address the root causes of homelessness and create sustainable solutions that lead to long-term stability.",
-        "Through partnerships with local authorities, health services, employment programs, and other community resources, we create comprehensive support networks that enable individuals to overcome barriers and build fulfilling lives.",
+        "Our approach is holistic, recognising that addressing homelessness requires more than just providing shelter. We work to address the root causes of homelessness and create sustainable solutions that lead to long-term stability.",
+        "Through partnerships with local authorities, health services, employment programmes, and other community resources, we create comprehensive support networks that enable individuals to overcome barriers and build fulfilling lives.",
         "Our success is measured not just by the number of people we house, but by the positive transformations we see in their lives as they gain confidence, skills, and independence."
       ],
       image: "/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png"
     },
     referrals: {
       title: "Referrals",
-      subtitle: "Streamlined processes for partner organizations",
+      subtitle: "Streamlined processes for partner organisations",
       description: [
-        "Our referral process is designed to be simple and efficient. We accept referrals from a wide range of organizations including local authorities, charities, and healthcare providers.",
+        "Our referral process is designed to be simple and efficient. We accept referrals from a wide range of organisations including local authorities, charities, and healthcare providers.",
         "Upon receiving a referral, our team will promptly assess the individual's needs to determine the most appropriate support package. We aim to respond to all referrals within 24-48 hours.",
-        "We work closely with referring organizations to ensure a smooth transition for the individual, sharing information (with appropriate consent) to provide continuity of care and support.",
+        "We work closely with referring organisations to ensure a smooth transition for the individual, sharing information (with appropriate consent) to provide continuity of care and support.",
         "If you're a professional looking to refer someone to our services, please contact our referrals team directly. We're happy to discuss potential referrals before formal submission to determine suitability."
       ],
       image: "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png"
@@ -92,7 +92,7 @@ const ServiceDetail = () => {
       {/* Back to Services */}
       <div className="bg-secondary py-4">
         <div className="container-custom">
-          <Link to="/services" className="inline-flex items-center text-sm font-medium hover:text-primary transition-colors">
+          <Link to="/services" className="inline-flex items-center text-sm font-medium text-white hover:text-white/80 transition-colors">
             <ArrowLeft size={16} className="mr-2" />
             Back to All Services
           </Link>
@@ -122,11 +122,11 @@ const ServiceDetail = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
                   <Phone size={18} className="mr-3 text-primary" />
-                  <span>0121 729 5002</span>
+                  <span>+44 7483 338883</span>
                 </div>
                 <div className="flex items-center">
                   <Mail size={18} className="mr-3 text-primary" />
-                  <span>info@insigniahousing.org</span>
+                  <span>info@insigniahousing.co.uk</span>
                 </div>
               </div>
               

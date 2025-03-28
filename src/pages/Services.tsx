@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -36,7 +35,7 @@ const Services = () => {
       title: "Support",
       description: "Our comprehensive support services help vulnerable individuals overcome barriers and build independence.",
       link: "/services/support",
-      details: "We have a strong desire to prevent and reduce homelessness. Insignia Values lie at the very core of our business. Our values are intertwined passionately with our ethos: to unrequitedly respect our fellow human beings, inspiring endless hope for anyone who might need it.",
+      details: "We have a strong desire to prevent and reduce homelessness. Insignia Values lie at the very core of our business. Our values are intertwined passionately with our ethos: to unreservedly respect our fellow human beings, inspiring endless hope for anyone who might need it.",
       image: "/lovable-uploads/302eae1b-4cf9-4db2-998b-fc07c401d054.png"
     },
     {
@@ -50,15 +49,15 @@ const Services = () => {
     {
       icon: <Users size={24} />,
       title: "Referrals",
-      description: "We work with local authorities and partner organizations to provide streamlined referral processes.",
+      description: "We work with local authorities and partner organisations to provide streamlined referral processes.",
       link: "/services/referrals",
-      details: "Our referral process is designed to be simple and efficient. We accept referrals from a wide range of organizations including local authorities, charities, and healthcare providers. Our team will assess each referral promptly to determine the most appropriate support package.",
+      details: "Our referral process is designed to be simple and efficient. We accept referrals from a wide range of organisations including local authorities, charities, and healthcare providers. Our team will assess each referral promptly to determine the most appropriate support package.",
       image: "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png"
     },
     {
       icon: <Building size={24} />,
       title: "Landlords",
-      description: "We offer guaranteed rent schemes and property management services for landlords in Wembley.",
+      description: "We offer guaranteed rent schemes and property management services for landlords.",
       link: "/services/landlords",
       details: "Our guaranteed rent scheme offers landlords peace of mind with regular, reliable income regardless of occupancy. We handle all aspects of property management, from tenant placement to maintenance, allowing you to enjoy a hands-off investment.",
       image: "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png"
@@ -79,7 +78,7 @@ const Services = () => {
       <Section>
         <div className="text-center max-w-3xl mx-auto animate-fade-in">
           <span className="tag mb-4">WHAT WE DO</span>
-          <h2 className="heading-lg mb-6">Supported Accommodation in Wembley</h2>
+          <h2 className="heading-lg mb-6">Supported Accommodation</h2>
           <p className="body-md text-muted-foreground mb-6">
             Insignia Housing offers more than just a home for people. We specialise in providing a tailored support system for those who are vulnerable and are at a disadvantage. We understand the issues and difficulties that can arise from homelessness, and we believe with the right help individuals can - and do - fulfil their aspirations of independent living.
           </p>
@@ -120,7 +119,7 @@ const Services = () => {
             <div className={`lg:w-1/2 animate-slide-in ${index % 2 !== 0 ? "lg:order-2" : ""}`}>
               <span className="tag mb-4">{service.title.toUpperCase()}</span>
               <h2 className="heading-lg mb-6">{service.title}</h2>
-              <p className="body-md text-muted-foreground mb-6">
+              <p className={`body-md ${index % 2 !== 0 ? "text-white" : "text-muted-foreground"} mb-6`}>
                 {service.details}
               </p>
               <Button asChild className="rounded-full">
@@ -147,7 +146,7 @@ const Services = () => {
           <span className="tag mb-4">SUPPORT SERVICES</span>
           <h2 className="heading-lg mb-6">How We Support Our Clients</h2>
           <p className="body-md opacity-80 mb-10">
-            We offer a range of supporting services, advice and guidance with any problems you may be experiencing. In every aspect of day to day living, from cleanliness to hygiene, finding work, maintaining your home and more.
+            We offer a range of supporting services, advice and guidance with any problems you may be experiencing. In every aspect of day-to-day living, from cleanliness to hygiene, finding work, maintaining your home and more.
           </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 text-left">
