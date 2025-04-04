@@ -16,14 +16,14 @@ const Index = () => {
 
   const supportImages = [
     "/lovable-uploads/42f8308d-a565-4c51-bc6f-38cfbf142c09.png",
-    "https://media.istockphoto.com/id/2030019953/photo/mother-playing-with-autistic-daughter.jpg?s=612x612&w=0&k=20&c=uL1EA3d5natGnhbGgSHR-t59xOo4PrQpAjmsJMx-Tw4=",
     "/lovable-uploads/a61b53c9-ffad-4c16-90fa-15113cf32371.png",
-    "https://media.istockphoto.com/id/2184072660/photo/joyful-child-embracing-the-holiday-spirit-at-home.jpg?s=612x612&w=0&k=20&c=ecJyUlHYJeIVkr8xJUaZWRtaqdIJAL0Ur-SY7TKSTpg=",
     "/lovable-uploads/b5380a36-6897-4e87-8f76-634c63e34407.png",
     "/lovable-uploads/dbe7172c-d546-433b-82a3-43435f687fdd.png",
     "/lovable-uploads/06761893-0be3-4051-9b9c-cce0ca15f44e.png",
     "/lovable-uploads/cad42fed-ace5-4bf1-9510-a1c497a054c0.png",
-    "/lovable-uploads/f253cc90-f308-49be-b5fc-0c6c72b203d3.png"
+    "/lovable-uploads/f253cc90-f308-49be-b5fc-0c6c72b203d3.png",
+    "/lovable-uploads/302eae1b-4cf9-4db2-998b-fc07c401d054.png",
+    "/lovable-uploads/2b16e84e-0add-44ae-809c-eb9b579b9a0b.png"
   ];
 
   return (

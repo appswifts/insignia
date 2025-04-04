@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 const navLinks = [
   { title: "Home", path: "/" },
   { title: "About Us", path: "/about" },
-  { title: "Our Services", path: "/services" },
+  { title: "Services", path: "/services" },
   { title: "Tenants", path: "/tenants" },
   { title: "Contact", path: "/contact" },
 ];
@@ -63,7 +63,7 @@ const Navbar = () => {
             </ul>
             <Button className={`flex items-center gap-2 ${scrolled ? 'bg-primary text-white' : 'bg-white text-primary'} rounded-full hover:bg-primary/90 hover:text-white`}>
               <Phone size={16} />
-              <span>+44 7483 338883</span>
+              <span>0207 1172 588</span>
             </Button>
           </div>
 
@@ -92,7 +92,7 @@ const Navbar = () => {
             <li>
               <Button className="flex items-center gap-2 w-full justify-center bg-primary text-white rounded-full hover:bg-primary/90">
                 <Phone size={16} />
-                <span>+44 7483 338883</span>
+                <span>0207 1172 588</span>
               </Button>
             </li>
           </ul>
