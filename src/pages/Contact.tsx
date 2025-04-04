@@ -26,7 +26,7 @@ const Contact = () => {
           <ContactInfoCard 
             icon={<Phone size={24} />}
             title="Phone"
-            details={["+44 7483 338883", "Lines open 24 hours a day, 7 days a week"]}
+            details={["0207 1172 588", "Lines open 24 hours a day, 7 days a week"]}
           />
           <ContactInfoCard 
             icon={<Mail size={24} />}
@@ -116,7 +116,7 @@ const Contact = () => {
                   id="phone"
                   type="tel" 
                   className="w-full px-4 py-3 border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20" 
-                  placeholder="+44 7483 338883"
+                  placeholder="0207 1172 588"
                 />
               </div>
               

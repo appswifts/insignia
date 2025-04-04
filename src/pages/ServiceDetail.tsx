@@ -122,7 +122,7 @@ const ServiceDetail = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center">
                   <Phone size={18} className="mr-3 text-primary" />
-                  <span>+44 7483 338883</span>
+                  <span>0207 1172 588</span>
                 </div>
                 <div className="flex items-center">
                   <Mail size={18} className="mr-3 text-primary" />
