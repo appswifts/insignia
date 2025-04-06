@@ -34,37 +34,37 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-md text-foreground' : 'bg-transparent text-white'}`}>
-      <div className="container-custom py-3">
-        <nav className="flex items-center justify-between">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-md' : isHomePage ? 'bg-transparent' : 'bg-white shadow-md'}`}>
+      <div className="container-custom">
+        <nav className="flex items-center justify-between h-32">
           <Link to="/" className="flex items-center">
             <img 
               src="/lovable-uploads/718c3d4f-f297-4b6b-a382-ad66dc8df314.png" 
               alt="Insignia Housing Logo" 
-              className="h-20 w-auto"
+              className="h-32 w-auto object-contain"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <ul className="flex space-x-8">
+          <div className="hidden md:flex items-center gap-4">
+            <ul className="flex items-center gap-6">
               {navLinks.map((link) => (
                 <li key={link.path}>
                   <Link 
                     to={link.path} 
-                    className={`link-hover text-sm font-medium ${
-                      isHomePage && !scrolled ? 'text-white' : 'text-black'
-                    }`}
+                    className={`link-hover text-sm font-medium ${(!scrolled && isHomePage) ? 'text-white' : 'text-black'}`}
                   >
                     {link.title}
                   </Link>
                 </li>
               ))}
+              <li>
+                <Button className={`flex items-center gap-1.5 px-4 py-1.5 text-sm ${scrolled ? 'bg-primary text-white' : 'bg-white text-primary'} rounded-full hover:bg-primary/90 hover:text-white`}>
+                  <Phone size={14} />
+                  <span>0207 1172 588</span>
+                </Button>
+              </li>
             </ul>
-            <Button className={`flex items-center gap-2 ${scrolled ? 'bg-primary text-white' : 'bg-white text-primary'} rounded-full hover:bg-primary/90 hover:text-white`}>
-              <Phone size={16} />
-              <span>0207 1172 588</span>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -90,8 +90,8 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <Button className="flex items-center gap-2 w-full justify-center bg-primary text-white rounded-full hover:bg-primary/90">
-                <Phone size={16} />
+              <Button className="flex items-center gap-1.5 px-4 py-1.5 text-sm w-full justify-center bg-primary text-white rounded-full hover:bg-primary/90">
+                <Phone size={14} />
                 <span>0207 1172 588</span>
               </Button>
             </li>
