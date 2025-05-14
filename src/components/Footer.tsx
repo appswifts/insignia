@@ -69,7 +69,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <Phone size={18} className="mr-3 mt-0.5" />
                 <div>
-                  <p className="font-medium">0207 1172 588</p>
+                  <p className="font-medium">020 7117 2588</p>
                   <p className="text-xs opacity-80">Lines open 24/7</p>
                 </div>
               </li>
@@ -84,7 +84,7 @@ const Footer = () => {
                 <MapPin size={18} className="mr-3 mt-0.5" />
                 <div>
                   <p className="font-medium">Office Address</p>
-                  <p className="text-xs opacity-80">C/0 Unit 51, Dartford Business Park, Victoria Road, Dartford, Kent DA1 5FS</p>
+                  <p className="text-xs opacity-80">Unit 338, Admirals Park, Victory Way, Dartford, DA2 6QD</p>
                 </div>
               </li>
             </ul>
@@ -101,7 +101,7 @@ const Footer = () => {
                 <Building size={18} className="mr-3 mt-0.5 text-secondary" />
                 <div>
                   <p className="font-medium">Registered Office Address</p>
-                  <p className="text-sm opacity-80">C/0 Unit 51, Dartford Business Park, Victoria Road, Dartford, Kent DA1 5FS</p>
+                  <p className="text-sm opacity-80">Unit 338, Admirals Park, Victory Way, Dartford, DA2 6QD</p>
                 </div>
               </div>
               <div className="flex items-start">

@@ -26,7 +26,7 @@ const Contact = () => {
           <ContactInfoCard 
             icon={<Phone size={24} />}
             title="Phone"
-            details={["0207 1172 588", "Lines open 24 hours a day, 7 days a week"]}
+            details={["020 7117 2588", "Lines open 24 hours a day, 7 days a week"]}
           />
           <ContactInfoCard 
             icon={<Mail size={24} />}
@@ -37,7 +37,7 @@ const Contact = () => {
           <ContactInfoCard 
             icon={<MapPin size={24} />}
             title="Visit Us"
-            details={["C/0 Unit 51, Dartford Business Park", "Victoria Road, Dartford", "Kent DA1 5FS"]}
+            details={["Unit 338", "Admirals Park, Victory Way", "Dartford, DA2 6QD"]}
             delay={400}
           />
         </div>
