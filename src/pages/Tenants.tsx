@@ -244,7 +244,7 @@ const Tenants = () => {
             <div className="flex items-center bg-primary/5 p-6 rounded-lg mb-6">
               <Phone size={24} className="mr-6 text-primary" />
               <div>
-                <p className="font-serif text-2xl font-bold">+44 7483 338883</p>
+                <p className="font-serif text-2xl font-bold">0207 1172 588</p>
                 <p className="text-muted-foreground">24 hours a day, 7 days a week</p>
               </div>
             </div>
